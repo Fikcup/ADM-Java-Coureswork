@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        // Input height     
+        var height = parseInt(prompt("Please input the height"));
+        
+        // Log context text
+        console.log("Input height: " + height);
+        console.log('Shape: ');
+
+        // Variable for proper spacing
+        let spacing = height / 2;
+
+        // Cross dimensions variable for loops
+        let rowCount = 1;
+        let start = 1;
+        let end = spacing;
+        
+        // Creating the cross
+        while (rowCount <= height)
+        {
+            let rowString = '';
+
+            // For loop to calculate the spacing values
+            for (let i = 1; i <= spacing; i++)
+            {
+                // Finds if it is at the start, middle, or end to print * or space
+                if (i === start || i === end)
+                {
+                    rowString += '*';
+                }
+                else
+                {
+                    rowString += ' ';
+                }
+            }
+
+            // Output string
+            console.log(rowString + ' ');
+
+            // Changes the starting and ending location of the row to narrow the structure
+            start++;
+            end--;
+            rowCount++;
+        }
+    </script>
+</html>

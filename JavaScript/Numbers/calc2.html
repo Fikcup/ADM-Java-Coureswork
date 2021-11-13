@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        var input = prompt("Enter your equation:")
+
+        if (input.includes(';'))
+        {
+            var splitInput = input.split(';');
+
+            for (i = 0; i < splitInput.length; i++) 
+            {
+                console.log(eval(splitInput[i]));
+            }
+        }
+        else
+        {
+            console.log(eval(input));
+        }
+    </script>
+</html>

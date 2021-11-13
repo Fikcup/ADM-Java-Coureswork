@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        // Input width and height     
+        var width = prompt("Please input the width");
+        var height = prompt("Please input the height");
+        
+        // Log context text
+        console.log("Input width: " + width);
+        console.log("Input height: " + height);
+        console.log('Shape: ');
+
+        // Repeating * to creat rectangle
+        for (let i = 0; i < height; i++)
+        {
+            let container = '';
+            for (let j = 0; j < width; j++)
+            {
+                container += '*';
+            }
+
+            // Output shape
+            console.log(container);
+        }
+    </script>
+</html>

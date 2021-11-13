@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        // Create the array
+        var arr = new Array(10);
+
+        // Create sum variable
+        var sum = 0;
+
+        // Prompt the number of times equal to the array size
+        for (let i = 0; i < arr.length - 1; i++)
+        {
+            // Asks for input
+            var input = prompt('Enter number ' + (i + 1) + ' of ' + (arr.length));
+            
+            // Input the number into the array
+            arr[i] = new Number(input);
+
+            // Add number to total
+            sum += arr[i];
+        }
+        
+        // Print sum
+        console.log(sum);
+    </script>
+</html>

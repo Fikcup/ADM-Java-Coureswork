@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <script>
+        var input = prompt("Enter your equation:")
+
+        if (input.includes('^'))
+        {
+            var squaredInput = input.replace('^', '');
+
+            var output = squaredInput * squaredInput;
+
+            console.log(eval(output));
+        }
+        else
+        {
+            console.log(eval(input));
+        }
+    </script>
+</html>

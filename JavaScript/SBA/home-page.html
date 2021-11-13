@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang=en>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="sba-css.css">
+        <title>Accessible Pathway to Higher Learning</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://lh3.googleusercontent.com/proxy/24pbDUKtA0lfK14e12_ReAZZz_ucayLDWZxk5P_4bDGI8zp_YlLNiYegNB8TFjvjEWL_20NuI3bhlhoy2eqvPYRA-wd7kBAVyXc-" />
+        <div class="navigation" id="table-nav">
+            <nav>
+                <div id="web-title">
+                    <h1>Accessible Pathway to Higher Learning</h1>
+                </div>
+                <ul class="navigation">
+                    <li class="navigation"><a href="home-page.html" class="active">Home</a></li>
+                    <li class="navigation"><a href="alternatives.html">Higher Education</a></li>
+                    <li class="navigation"><a href="get-funding.html">Funding</a></li>
+                </ul>
+            </nav>
+            </div>
+    </head>
+    <body>
+        <section id="home-content">
+            <div class="container" id="home-image">
+                <span id="sentence">Get started</span>
+                <span class="rotate-txt" id="changing-txt"> </span>
+                <span class="input-cursor"></span>
+            </div>
+        </section>
+    </body>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+        var writingEffectLocation = document.getElementById('changing-txt');
+
+        var typewriter = new Typewriter(writingEffectLocation, {
+            loop: true,
+            delay: 95,
+        });
+
+        typewriter
+            .pauseFor(2500)
+            .typeString('today.')
+            .pauseFor(600)
+            .deleteChars(6)
+            .typeString(' this year.')
+            .pauseFor(600)
+            .deleteChars(10)
+            .typeString(' next week.')
+            .pauseFor(600)
+            .deleteChars(10)
+            .typeString(' tomorrow.')
+            .pauseFor(600)
+            .deleteChars(9)
+            .typeString(' in a month.')
+            .pauseFor(600)
+            .deleteChars(11)
+            .start();
+    </script>
+</html>

@@ -1,0 +1,202 @@
+html {
+    font-family: 'Akaya Telivigala', cursive;
+    max-width: 100%;
+    background-color: #5972A2;
+    color: #F3CA79;
+}
+
+#web-title {
+    float: left;
+    display: block;
+    margin-left: 40px;
+    font-style: italic;
+    top: 0;
+    padding: 0;
+}
+
+.navigation {
+    background-color: #879AC4;
+}
+
+#table-nav {
+    display: table;
+    margin: 0 auto;
+    width: 100%;
+}
+
+nav ul {
+    min-width: 200px;
+    max-width: 100%;
+    list-style: none;
+}
+
+nav ul li {
+    justify-content: flex-end;
+    float: right;
+    display: block;
+    margin-right: 40px;
+    font-size: 25px;
+    padding: 1rem;
+    -webkit-transition: all .3s ease-in-out;
+            transition: all .3s ease-in-out;
+}
+
+nav ul li a:hover {
+    background-color: #BDCAE5;
+    color: #C99D48;
+    box-shadow: 0 4px 5px #395286;
+    padding: 1rem;
+}
+
+nav ul li .active {
+    padding: 1rem;
+    background-color: #BDCAE5;
+    color: #C99D48;
+}
+
+ul li a {
+    color: #F3CA79;
+    text-decoration: none;
+}
+
+#home-image {
+    background-image: url("https://images.pexels.com/photos/211291/pexels-photo-211291.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+#home-content {
+    font-size: 42px;
+    text-align: center;
+    margin: 0px auto;
+    display: block;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#sentence {
+    background-color: rgba(0,0,0,0);
+    margin-right: 10px;
+}
+
+span #rotate-txt {
+    font-family: 'Syne Mono', monospace;
+    color: #FFE1A7;
+}
+
+.funding h1 {
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+.funding h2 {
+    margin-bottom: 55px;
+}
+
+.funding p {
+    margin-bottom: 75px;
+}
+
+.alternatives h1 {
+    font-size: 40px;
+    font-style: italic;
+    margin-bottom: 35px;
+}
+
+.alternatives h2 {
+    margin-bottom: 55px;
+}
+
+#loans-img {
+    background-image: url('https://images.pexels.com/photos/4386370/pexels-photo-4386370.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-repeat: no-repeat;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #BDCAE5 solid 10px;
+    border-bottom: #BDCAE5 solid 10px;
+}
+
+#scholarships-img {
+    background-image: url('https://images.pexels.com/photos/5632406/pexels-photo-5632406.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position: 50%;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #BDCAE5 solid 10px;
+    border-bottom: #BDCAE5 solid 10px;
+}
+
+#cc-img {
+    background-image: url('https://images.pexels.com/photos/261909/pexels-photo-261909.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position-y: 28%;
+    background-position-x: 50%;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #BDCAE5 solid 10px;
+    border-bottom: #BDCAE5 solid 10px;
+}
+
+#apprenticeship-img {
+    background-image: url('https://images.pexels.com/photos/159306/construction-site-build-construction-work-159306.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position-y: 45%;
+    background-position-x: 50%;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #BDCAE5 solid 10px;
+    border-bottom: #BDCAE5 solid 10px;
+}
+
+#trade-img {
+    background-image: url('https://images.pexels.com/photos/4947388/pexels-photo-4947388.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-position-y: 40%;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #BDCAE5 solid 10px;
+    border-bottom: #BDCAE5 solid 10px;
+}
+
+#online-img {
+    background-image: url('https://images.pexels.com/photos/4144222/pexels-photo-4144222.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position-x: 40%;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #BDCAE5 solid 10px;
+    border-bottom: #BDCAE5 solid 10px;
+}
+
+#bootcamps-img {
+    background-image: url('https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-repeat: no-repeat;
+    background-position-y: 60%;
+    background-position-x: 50%;
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-top: #BDCAE5 solid 10px;
+    border-bottom: #BDCAE5 solid 10px;
+}
